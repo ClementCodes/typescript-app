@@ -1,14 +1,19 @@
-import React,{FunctionComponent} from 'react';
+import React,{FunctionComponent,useState} from 'react';
+import POKEMONS from './models/mock-pokemon';
 
 
 //FC :signifie :function componnent 
   
 const App: FunctionComponent = () => {
- const name: String = 'React';
+    const [name, setName] = useState<String>('react');
+    const [pokemon, setPokemon] = useState<String>('react');
     
- return (
-  <h1>Bonjour, {name} !</h1>
- )
-}
+    return (
+        <div>
+            <h1>Bonjour, {name} !</h1>
+            <h1>il y a , {[POKEMONS.id]} !</h1>
+        </div>
+    )
+};
   
 export default App;
