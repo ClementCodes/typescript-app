@@ -1,0 +1,1 @@
+{"version":3,"sources":["pokemon-card.css"],"names":[],"mappings":"AAAA,YACE,sBAAuB,CACvB,YACF","file":"main.01a73c0a.chunk.css","sourcesContent":[".horizontal {\n  border: solid 4px green;\n  height: 200px;\n}\n"]}
